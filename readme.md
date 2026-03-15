@@ -32,7 +32,7 @@ Each link was configured with:
 
 Screenshot:
 
-![Topology](screenshots/topology-creation.png)
+![Topology](screenshots/topology-creation.jpeg)
 
 ---
 
@@ -44,7 +44,7 @@ This command sends ICMP packets between all hosts to ensure network connectivity
 
 Screenshot:
 
-![Connectivity](screenshots/connectivity-test.png)
+![Connectivity](screenshots/connectivity-test.jpeg)
 
 ---
 
@@ -56,7 +56,7 @@ This test helps analyze network performance and reliability.
 
 Screenshot:
 
-![Delay Test](screenshots/delay-packetloss.png)
+![Delay Test](screenshots/delay-packetloss.jpeg)
 
 ---
 
@@ -68,7 +68,7 @@ This generated HTTP traffic which was captured using Wireshark.
 
 Screenshot:
 
-![HTTP Server](screenshots/http-server.png)
+![HTTP Server](screenshots/http-server.jpeg)
 
 ---
 
@@ -80,7 +80,7 @@ Packet filters were applied to analyze specific traffic.
 
 Screenshot:
 
-![Wireshark](screenshots/wireshark-capture.png)
+![Wireshark](screenshots/wireshark-capture.jpeg)
 
 ---
 
@@ -92,7 +92,7 @@ This allowed measurement of network throughput and TCP performance.
 
 Screenshot:
 
-![TCP Traffic](screenshots/tcp-throughput.png)
+![TCP Traffic](screenshots/tcp-throughput.jpeg)
 
 ---
 
@@ -102,7 +102,7 @@ UDP traffic was also generated using iperf to observe differences between TCP an
 
 Screenshot:
 
-![UDP Traffic](screenshots/udp-throughput.png)
+![UDP Traffic](screenshots/udp-throughput.jpeg)
 
 ---
 
@@ -143,28 +143,24 @@ Through this lab, the following skills were developed:
 
 # Repository Structure
 
-Network-Traffic-Analysis-Lab
-│
-├── README.md
-├── screenshots
-│ ├── topology-creation.png
-│ ├── connectivity-test.png
-│ ├── delay-packetloss.png
-│ ├── http-server.png
-│ ├── wireshark-capture.png
-│ ├── tcp-throughput.png
-│ └── udp-throughput.png
+```
 
 Network-Traffic-Analysis-Lab
 │
 ├── README.md
+│
 ├── screenshots
-│ ├── topology-creation.png
-│ ├── connectivity-test.png
-│ ├── delay-packetloss.png
-│ ├── http-server.png
-│ ├── wireshark-capture.png
-│ ├── tcp-throughput.png
-│ └── udp-throughput.png
+│ ├── topology-creation.jpeg
+│ ├── connectivity-test.jpeg
+│ ├── delay-packetloss.jpeg
+│ ├── http-server.jpeg
+│ ├── wireshark-capture.jpeg
+│ ├── tcp-throughput.jpeg
+│ └── udp-throughput.jpeg
+│
+├── setup-guide
+│ └── installation-guide.md
+
+```
 
 ---
